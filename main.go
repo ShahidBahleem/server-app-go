@@ -21,7 +21,7 @@ func init() {
 	os.Setenv("APP_CERTIFICATE", "91bca881808b44f7bf1a362836ea6c3a")
 	// loads values from .env into the system
 	if err := godotenv.Load(); err != nil {
-		//go	log.Prsdfint("No .env file found")
+		log.Print("No .env file found")
 	}
 }
 
